@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.odiljonov.adiblar.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.odiljonov.adiblar.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.odiljonov.adiblar.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/adiblarFragment"
+        android:name="com.odiljonov.adiblar.AdiblarFragment"
+        android:label="fragment_adiblar"
+        tools:layout="@layout/fragment_adiblar" />
+    <fragment
+        android:id="@+id/saqlanganFragment"
+        android:name="com.odiljonov.adiblar.SaqlanganFragment"
+        android:label="fragment_saqlangan"
+        tools:layout="@layout/fragment_saqlangan" />
+    <fragment
+        android:id="@+id/jahonAdabiyotiFragment"
+        android:name="com.odiljonov.adiblar.JahonAdabiyotiFragment"
+        android:label="fragment_jahon_adabiyoti"
+        tools:layout="@layout/fragment_jahon_adabiyoti" />
+    <fragment
+        android:id="@+id/ozbekAdabiyotiFragment"
+        android:name="com.odiljonov.adiblar.OzbekAdabiyotiFragment"
+        android:label="fragment_ozbek_adabiyoti"
+        tools:layout="@layout/fragment_ozbek_adabiyoti" />
+    <fragment
+        android:id="@+id/mumtozAdabiyotFragment"
+        android:name="com.odiljonov.adiblar.MumtozAdabiyotFragment"
+        android:label="fragment_mumtoz_adabiyot"
+        tools:layout="@layout/fragment_mumtoz_adabiyot" />
+    <fragment
+        android:id="@+id/adibInfoFragment"
+        android:name="com.odiljonov.adiblar.AdibInfoFragment"
+        android:label="fragment_adib_info"
+        tools:layout="@layout/fragment_adib_info" />
+    <fragment
+        android:id="@+id/searchAdibFragment"
+        android:name="com.odiljonov.adiblar.SearchAdibFragment"
+        android:label="fragment_search_adib"
+        tools:layout="@layout/fragment_search_adib" />
+    <fragment
+        android:id="@+id/dasturInfoFragment"
+        android:name="com.odiljonov.adiblar.DasturInfoFragment"
+        android:label="fragment_dastur_info"
+        tools:layout="@layout/fragment_dastur_info" />
+</navigation>

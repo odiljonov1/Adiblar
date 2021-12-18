@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Adiblar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sozlamalar">Sozlamalar</string>
+    <string name="dastur_haqida">Dastur haqida</string>
+    <string name="adib_qo_shish">Adib qo\'shish</string>
+    <string name="tug_gilgan_sanasi">Tug\'gilgan sanasi</string>
+    <string name="vafot_etkan_sanasi">Vafot etkan sanasi</string>
+    <string name="adib_haqida_ma_lumot">Adib haqida ma\'lumot</string>
+    <string name="saqlash">Saqlash</string>
+    <string name="adib_rasmi">Adib rasmi</string>
+    <string name="adib_ismi_familiyasi">Adib ismi, familiyasi</string>
+    <string name="_1765_1956">1765-1956</string>
+    <string name="o_tkir_hoshimov">O’tkir Hoshimov</string>
+    <string name="adiblarni_qidiring">Adiblarni qidiring...</string>
+    <string name="saqlangan_adiblar">Saqlangan adiblar</string>
+</resources>
